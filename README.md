@@ -1,7 +1,7 @@
 Poker Pi
 ========
 
-To create a real time, event driven, Home Poker Tournament Manager system. Using cool new software.
+	Create a real time, event driven, Home Poker Tournament Manager system. Using cool new software.
 
 Consists of 4 major components:
 
@@ -50,31 +50,31 @@ CakePHP API (HTML, JSON, XML etc)
 
 
 
-### Raspberry Pi
+Raspberry Pi
+------------
 
-	Cool device, about the size of 1 deck of playing cards. 
-
-
-	#### Hardware Spec
-
-	 * 512MB RAM
-	 * 700MHz Arm11 processor
-	 * 16GB flash storage on memory card
-	 * HDMI output
-	 * 10/100 NIC
+Cool device, about the size of 1 deck of playing cards. 
 
 
-	#### Limitations
-	-----------
+#### Hardware Spec
 
-	Raspberry is the 'official' operating system for the pi but there isn't a lot of support in the open source world for precompiled binaries for the RISC architecture. 
+ * 512MB RAM
+ * 700MHz Arm11 processor
+ * 16GB flash storage on memory card
+ * HDMI output
+ * 10/100 NIC
 
-	Might run into problems trying to get some software to work/compiled. 
+
+#### Limitations
+
+Raspberry is the 'official' operating system for the pi but there isn't a lot of support in the open source world for precompiled binaries for the RISC architecture. 
+
+Might run into problems trying to get some software to work/compiled. 
 
 
 
-	#### GPIO
-	----
-	Another of the cool things about the Pi is it's general purpose input/output (GPIO) interface which allows for real world interaction with the real world. 
-	It's simple to activate these pins by simply echoing 0 or 1 to the linux file system, i.e `cat 1 > /proc/gpio/1`. 
+#### GPIO
+
+Another of the cool things about the Pi is it's general purpose input/output (GPIO) interface which allows for real world interaction with the real world. 
+It's simple to activate these pins by simply echoing 0 or 1 to the linux file system, i.e `cat 1 > /proc/gpio/1`. 
 
