@@ -43,9 +43,10 @@ It will appear to be controlled via a user on their iPad/iPhone starting and pau
 
 
 ### Website backend
+ - node.js and socket.io
  - ZeroMQ for socket connectivity			 			http://www.zeromq.org
  - Redis for publish/subscribe to event game data.		http://redis.io
- - CakePHP API (HTML, JSON, XML etc)
+ - Apache/nginx webserver for CakePHP API (HTML, JSON, XML etc)
 
 
 
