@@ -24,13 +24,12 @@ The player who is the designated tournament manager can control the tournament c
 A raspberry pi can allow the display side of things to be done on one screen, and the iPad to be the control interface
 
 
-Website Front End
------------------
+### Website Front End
+
 The usual register user, setup Poker Team, add players to the team, send out invitations, allow players to sign up for a poker tournament.
 
 
-iOS App 
---------------
+### iOS App 
 
 Has 2 functions:
 
@@ -38,14 +37,12 @@ Has 2 functions:
  2. If a player is also a tournament manager they can control the tournament clock, rebuys, addons, breaks etc.
 
 
-Tournament Display
-------------------
+### Tournament Display
 A Raspberry pi connected to a projector/TV will authenticate with the API and display information about the home users tournament.
 It will appear to be controlled via a user on their iPad/iPhone starting and pausing the clock.
 
 
-Website backend
-----------------
+### Website backend
 ZeroMQ for socket connectivity			 			http://www.zeromq.org
 Redis for publish/subscribe to event game data.		http://redis.io
 CakePHP API (HTML, JSON, XML etc)
@@ -53,13 +50,13 @@ CakePHP API (HTML, JSON, XML etc)
 
 
 
-Raspberry Pi
-------------
+### Raspberry Pi
+
 	Cool device, about the size of 1 deck of playing cards. 
 
 
-	Hardware Spec
-	-------------
+	#### Hardware Spec
+
 	 * 512MB RAM
 	 * 700MHz Arm11 processor
 	 * 16GB flash storage on memory card
@@ -67,7 +64,7 @@ Raspberry Pi
 	 * 10/100 NIC
 
 
-	Limitations
+	#### Limitations
 	-----------
 
 	Raspberry is the 'official' operating system for the pi but there isn't a lot of support in the open source world for precompiled binaries for the RISC architecture. 
@@ -76,7 +73,7 @@ Raspberry Pi
 
 
 
-	GPIO
+	#### GPIO
 	----
 	Another of the cool things about the Pi is it's general purpose input/output (GPIO) interface which allows for real world interaction with the real world. 
 	It's simple to activate these pins by simply echoing 0 or 1 to the linux file system, i.e `cat 1 > /proc/gpio/1`. 
